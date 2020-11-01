@@ -1,0 +1,32 @@
+{
+   "background": {
+   "scripts": [ "ignore-x-frame.js" ]   },
+   "manifest_version": 2,
+   "name": "Atalho WhatsApp",
+   "permissions": [ "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+   "version": "1.1",
+   
+   "description":"This is an extension that creates a shortcut to WhatsAPP Web in the chrome browser",
+   "permissions": ["storage"],
+   "permissions": ["notifications"],
+   "permissions": ["fullscreen", "audioCapture"],
+   "permissions": ["unlimitedStorage"],
+   "permissions": ["background"],
+   "permissions": ["activeTab"],
+   "permissions": ["https://web.whatsapp.com/"],
+   "permissions":["http://*/"],
+   "permissions": ["tabs"],
+   "permissions": [ "webRequest", "webRequestBlocking", "\u003Call_urls>" ],
+
+   "browser_action":{
+      "default_popup":"index.html",
+      "default_icon":"./img/icon.png"
+   },
+
+   "manifest_version":2
+   
+
+
+
+
+}

@@ -1,0 +1,16 @@
+iframe{
+    width: 650px;
+    height: 650px;
+   border: 0px;
+   margin: 0%; 
+   zoom: 100%;
+}
+*{ 
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+body{
+    background-color: #263238;
+}
+
